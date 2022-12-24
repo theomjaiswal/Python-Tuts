@@ -446,17 +446,29 @@ d1 = {"om":"kyro", "kairavi":"banana", "neeraj":"roti", "krishna":{"B":"roti", "
 """############################################""" 
 # matplotlib
 
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 
-x = [1,2,3,4,5]
-y = [2,4,6,2,8]
+# x = [1,2,3,4,5]
+# y = [2,4,6,2,8]
 
-plt.plot(x,y)
-plt.xlabel("x")
-plt.ylabel("y")
-plt.title("The Graph")
-plt.legend()
-plt.show()
-
+# plt.plot(x,y)
+# plt.xlabel("x")
+# plt.ylabel("y")
+# plt.title("The Graph")
+# plt.legend()
+# plt.show()
 
 """############################################""" 
+#open CV
+
+import cv2 as cv
+
+img = cv.imread("Photos/shell.jpg")
+
+cv.imshow("Shell", img)
+cv.waitKey(0)
+
+"""############################################""" 
+"""############################################""" 
+"""############################################""" 
+
